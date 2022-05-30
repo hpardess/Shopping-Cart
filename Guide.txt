@@ -1,0 +1,4 @@
+# Create new Angular v13+ Project
+ng new shopping-cart
+
+# 
