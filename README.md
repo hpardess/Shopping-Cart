@@ -5,7 +5,7 @@ Packages and Libraries:
 - Angular v13.3
 - ng-bootstrap v12.1 (Based on Bootstap v5)
 - ngx-toastr v14.3 (For notifications and popups)
-
+- Fontawsome v4.7
 
 
 # ShoppingCart

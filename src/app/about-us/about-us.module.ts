@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { AboutUsComponent } from './about-us.component';
-import { Routes } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
 	{
@@ -16,7 +16,8 @@ const routes: Routes = [
 		AboutUsComponent
 	],
 	imports: [
-		CommonModule
+		CommonModule,
+		RouterModule.forChild(routes)
 	]
 })
 export class AboutUsModule { }
