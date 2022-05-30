@@ -1,15 +1,22 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ContactUsComponent } from './contact-us.component';
+import { Routes } from '@angular/router';
 
-
+const routes: Routes = [
+	{
+		path: '',
+		component: ContactUsComponent,
+		pathMatch:  'full'
+	},
+];
 
 @NgModule({
-  declarations: [
-    ContactUsComponent
-  ],
-  imports: [
-    CommonModule
-  ]
+	declarations: [
+		ContactUsComponent
+	],
+	imports: [
+		CommonModule
+	]
 })
 export class ContactUsModule { }
