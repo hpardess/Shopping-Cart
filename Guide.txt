@@ -1,4 +1,5 @@
 # Create new Angular v13+ Project
 ng new shopping-cart
 
-# 
+# Add CSS Framework (ng-bootstrap)
+npm i @ng-bootstrap/ng-bootstrap
